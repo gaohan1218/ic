@@ -8,12 +8,12 @@
 
 
 <a name="overview"></a>
-# Overview 
+# Overview
 
-Community plays an important role in keeping the Internet Computer’s ecosystem safe and secure. This policy seeks to establish a process for anyone to communicate and discuss the vulnerabilities they found in the Internet Computer Platform in a responsible manner. 
+Community plays an important role in keeping the Internet Computer’s ecosystem safe and secure. This policy seeks to establish a process for anyone to communicate and discuss the vulnerabilities they found in the Internet Computer Platform in a responsible manner.
 
 <a name="reporting-vulnerability"></a>
-# Reporting Vulnerability 
+# Reporting Vulnerability
 
 DFINITY foundation is committed to resolve any serious security issues in a timely and transparent manner. Our Bug Bounty Program provides rewards as a way to provide encouragement. The community and security researchers are welcome to share any security issues that they consider relevant but the rewards will be provided to those issues that are shown to be present in the components that are part of the core Internet Computer Platform. The objective scope is provided in the following section.
 
@@ -43,13 +43,13 @@ The primary targets for this vulnerability rewards program are as follows
 
 #### Core Internet Computer Protocol stack
 
-The Internet Computer Protocol is a distributed protocol run by multiple nodes that constitutes the Internet Computer blockchain network platform.In order to get a good overview of the Internet Computer and to get started with it please see [here](https://internetcomputer.org/how-it-works). 
+The Internet Computer Protocol is a distributed protocol run by multiple nodes that constitutes the Internet Computer blockchain network platform.In order to get a good overview of the Internet Computer and to get started with it please see [here](https://internetcomputer.org/how-it-works).
 
 Source code: [https://github.com/dfinity/ic](https://github.com/dfinity/ic)
 
 #### Network Nervous System (NNS) canisters
 
-All aspects of Internet Computer behavior are governed by the community of enthusiasts and users of InternetComputer through a democratic governance system called the Network Nervous System (NNS). A high-level introduction to the operation of the system can be obtained from [here](https://internetcomputer.org/nns/) and [this medium post](https://medium.com/dfinity/the-network-nervous-system-governing-the-internet-computer-1d176605d66a). 
+All aspects of Internet Computer behavior are governed by the community of enthusiasts and users of InternetComputer through a democratic governance system called the Network Nervous System (NNS). A high-level introduction to the operation of the system can be obtained from [here](https://internetcomputer.org/nns/) and [this medium post](https://medium.com/dfinity/the-network-nervous-system-governing-the-internet-computer-1d176605d66a).
 
 Source code: [https://github.com/dfinity/ic/tree/master/rs/nns](https://github.com/dfinity/ic/tree/master/rs/nns)
 
@@ -114,7 +114,7 @@ Source code:
 
 ##### IC-OS
 
-The node software runs on the virtual machine termed ‘GuestOS’ that in turn runs on ‘HostOS’. In addition to these OSes, the boundary node systems have their own operating system ‘Boundary-guestOS’. Finally, the ‘SetupOS’ is used to install and set up a node. The details, documentation and scripts can be found [here](https://github.com/dfinity/ic/tree/master/ic-os). 
+The node software runs on the virtual machine termed ‘GuestOS’ that in turn runs on ‘HostOS’. In addition to these OSes, the boundary node systems have their own operating system ‘Boundary-guestOS’. Finally, the ‘SetupOS’ is used to install and set up a node. The details, documentation and scripts can be found [here](https://github.com/dfinity/ic/tree/master/ic-os).
 
 ##### Boundary Nodes
 
@@ -160,7 +160,7 @@ The following section seeks to standardize the policy and process for the reward
    </td>
   </tr>
   <tr>
-   <td><strong>CRITICAL</strong> 
+   <td><strong>CRITICAL</strong>
 <p>
 The attack is easy to perform at a low cost and has a severe global impact.
 <p>
@@ -170,7 +170,7 @@ Examples - Disclosure of subnet key shares, compromise of the integrity of the c
    </td>
   </tr>
   <tr>
-   <td><strong>HIGH</strong> 
+   <td><strong>HIGH</strong>
 <p>
 The attack is relatively straightforward but may have additional constraints that may affect the ease or cost of the attack to a certain degree but still with a significant impact.
 <p>
@@ -209,7 +209,7 @@ Example - A bug resulting in an attacker controlling what is displayed to the us
 
 ### Rewards Payment Process
 
-1. First, obtain an ICP wallet address. You may use any valid ICP wallet address that best fits your needs and convenience. Below are some custody option examples that you can choose from to obtain a KYC'ed ICP wallet address. 
+1. First, obtain an ICP wallet address. You may use any valid ICP wallet address that best fits your needs and convenience. Below are some custody option examples that you can choose from to obtain a KYC'ed ICP wallet address.
     1. Self-Custody
         1. **NNS dApp**
             1. Learn[ how to get started](https://medium.com/dfinity/getting-started-on-the-internet-computers-network-nervous-system-app-wallet-61ecf111ea11).
@@ -222,7 +222,7 @@ Example - A bug resulting in an attacker controlling what is displayed to the us
         4. [Stoic wallet](https://www.stoicwallet.com/)
         5. [Coinbase Custody](https://www.coinbase.com/custody)
 2. Once your ICP wallet address is ready, send the address along with the email address you plan to associate your account with **<span style="text-decoration:underline;">before</span>** starting the KYC process. The provided email address will be whitelisted on the KYC website (~3 working days).
-3. You will receive an email notification once your email has been whitelisted. **[Submit your KYC application](https://kyc.dfinity.org/)** by clicking on ‘Other’ and entering the email address you provided to receive a unique link to begin the verification process. The KYC will be performed by a 3rd party and all information that the DFINITY Foundation receives is the email address and the ICP wallet address.  
+3. You will receive an email notification once your email has been whitelisted. **[Submit your KYC application](https://kyc.dfinity.org/)** by clicking on ‘Other’ and entering the email address you provided to receive a unique link to begin the verification process. The KYC will be performed by a 3rd party and all information that the DFINITY Foundation receives is the email address and the ICP wallet address.
 
 Make sure at every stage of the onboarding process that your wallet address and associated email address are entered correctly to avoid any delay. As a reminder, DFINITY is not responsible for your asset custody nor will it be held accountable for any loss of your ICP distributed to you in the ICP wallet address you have provided.
 
